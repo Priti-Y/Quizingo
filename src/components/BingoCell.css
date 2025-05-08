@@ -1,0 +1,30 @@
+/* src/components/BingoCell.css */
+.bingo-cell {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .bingo-cell.claimed {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  /* Add styles for BingoBoard */
+  .bingo-board {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns */
+    gap: 5px; /* spacing between cells */
+    max-width: 320px;
+    margin: 20px auto;
+  }
+  .grid { margin: 10 }
+  .row { flex-direction: 'row' }
+  .text { font-size: 18 }
+  
