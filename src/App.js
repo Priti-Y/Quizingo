@@ -108,7 +108,7 @@ function App() {
   };
   return (
     <div className="App">
-      <h1>My Bingo Game</h1>
+      <h1>Quizingo Game</h1>
       <p> 🎯 Click on a cell to mark it claimed. Get 5 in a row(horizontal/vertical) or diagonal to win!</p>
       <BingoBoard board={board} onCellPress={handleCellPress} />
       <div style={{ textAlign: 'center', marginTop: '40px' }}>
