@@ -1,3 +1,4 @@
 Quizingo game made wit REACT Technology and REST API for pulling random quetion from Open TRIVA 
 
-<img width="977" alt="image" src="https://github.com/user-attachments/assets/cb34aa04-6475-4a23-a41d-8c4dda36f939" />
+<img width="609" alt="image" src="https://github.com/user-attachments/assets/6e672cc6-23b2-4472-8359-96b27fcf9756" />
+
